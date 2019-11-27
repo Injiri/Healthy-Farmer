@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Healthy Farmer</string>
+    <string name="welcom_title">Welcome to h-farm platform. Navigate and access content</string>
+    <string name="top_lifestyle_lable">Top lifestyle tips for healthy body</string>
+    <string name="health_plans_title">Health plans</string>
+    <string name="messages_title_lbl">Preview messages</string>
+</resources>
