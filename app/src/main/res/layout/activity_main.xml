@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:theme="@style/CardView.Light"
+            android:theme="@style/CardView.Dark"
             app:cardCornerRadius="5dp"
             app:cardElevation="6dp"
             app:cardPreventCornerOverlap="true"
@@ -44,6 +44,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/health_plans_title"
+            android:layout_marginLeft="15dp"
             android:textSize="18sp"/>
 
         <androidx.recyclerview.widget.RecyclerView
