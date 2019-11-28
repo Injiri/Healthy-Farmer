@@ -22,8 +22,8 @@ public class MessageCardDetailActivity extends AppCompatActivity {
         videoThumbnailsRecyclerView = findViewById(R.id.msgdetail_thumbnail_recyclerview);
 
         thumbnailsAdapter = new MessageDetailAdapter();
-//        videoThumbnailsRecyclerView.setLayoutManager(new GridLayoutManager(this,2));
-        videoThumbnailsRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+        videoThumbnailsRecyclerView.setLayoutManager(new GridLayoutManager(this,2));
+//        videoThumbnailsRecyclerView.setLayoutManager(new LinearLayoutManager(this));
         videoThumbnailsRecyclerView.setAdapter(thumbnailsAdapter);
         thumbnailsAdapter.notifyDataSetChanged();
 
