@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/cardview_shadow_end_color"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -20,7 +21,8 @@
             app:cardElevation="6dp"
             app:cardPreventCornerOverlap="true"
             app:cardUseCompatPadding="true"
-            app:contentPadding="24dp">
+            app:contentPadding="24dp"
+            android:visibility="gone">
 
             <TextView
                 android:layout_width="match_parent"
@@ -30,6 +32,25 @@
                 android:textSize="18sp" />
 
         </androidx.cardview.widget.CardView>
+
+        <com.smarteist.autoimageslider.SliderView
+            android:id="@+id/imageSlider"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:sliderAnimationDuration="600"
+            app:sliderAutoCycleDirection="back_and_forth"
+            app:sliderAutoCycleEnabled="true"
+            app:sliderCircularHandlerEnabled="true"
+            app:sliderIndicatorAnimationDuration="600"
+            app:sliderIndicatorGravity="center_horizontal|bottom"
+            app:sliderIndicatorMargin="15dp"
+            app:sliderIndicatorOrientation="horizontal"
+            app:sliderIndicatorPadding="3dp"
+            app:sliderIndicatorRadius="2dp"
+            app:sliderIndicatorSelectedColor="#5A5A5A"
+            app:sliderIndicatorUnselectedColor="#FFF"
+            app:sliderScrollTimeInSec="1"
+            app:sliderStartAutoCycle="true" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/messages_recycler"
@@ -51,7 +72,8 @@
             android:id="@+id/health_plans_recyclerView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            >
 
 
         </androidx.recyclerview.widget.RecyclerView>
@@ -67,7 +89,8 @@
             app:cardElevation="6dp"
             app:cardPreventCornerOverlap="true"
             app:cardUseCompatPadding="true"
-            app:contentPadding="24dp">
+            app:contentPadding="24dp"
+            android:onClick="openLifestyleTipsActivity">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -77,16 +100,19 @@
 
                 <ImageView
                     android:id="@+id/keep_fit_icon"
-                    android:layout_width="34dp"
-                    android:layout_height="34dp"
-                    android:src="@drawable/ic_launcher_foreground" />
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:src="@mipmap/ic_launcher_foreground" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
                     android:text="@string/top_lifestyle_lable"
+                    android:layout_marginLeft="8dp"
                     android:textFontWeight="20"
                     android:textSize="18sp" />
+
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>

@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "576749498141",
+    "firebase_url": "https://daktarionline-6a1da.firebaseio.com",
+    "project_id": "daktarionline-6a1da",
+    "storage_bucket": "daktarionline-6a1da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576749498141:android:d4faf6c17221e999",
+        "android_client_info": {
+          "package_name": "com.example.daktarionline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "576749498141-4lftcrccqknpbvhr0bcoof42vg1mmuc4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.daktarionline",
+            "certificate_hash": "94e6c15f788844b5c30920e5b7da1487e338b824"
+          }
+        },
+        {
+          "client_id": "576749498141-f99f8vdmg0pnf765lbrs3nc97rkojg6p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSa6wZ4etznlkQnhZZhwW5rxasrMnZyBw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "576749498141-f99f8vdmg0pnf765lbrs3nc97rkojg6p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576749498141:android:6df02263d77f283a",
+        "android_client_info": {
+          "package_name": "injiri.app.com.daktarionline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "576749498141-0g09mjkdl5pbqljnh1saflesj8sbklcg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "injiri.app.com.daktarionline",
+            "certificate_hash": "94e6c15f788844b5c30920e5b7da1487e338b824"
+          }
+        },
+        {
+          "client_id": "576749498141-f99f8vdmg0pnf765lbrs3nc97rkojg6p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSa6wZ4etznlkQnhZZhwW5rxasrMnZyBw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "576749498141-f99f8vdmg0pnf765lbrs3nc97rkojg6p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576749498141:android:b8570d5c8da45c3c2a7bf4",
+        "android_client_info": {
+          "package_name": "org.injiri.healthyfarmer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "576749498141-rk22447aedjr9vjpdccji6t22lp9mkk9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.injiri.healthyfarmer",
+            "certificate_hash": "94e6c15f788844b5c30920e5b7da1487e338b824"
+          }
+        },
+        {
+          "client_id": "576749498141-f99f8vdmg0pnf765lbrs3nc97rkojg6p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSa6wZ4etznlkQnhZZhwW5rxasrMnZyBw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "576749498141-f99f8vdmg0pnf765lbrs3nc97rkojg6p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
